@@ -9,9 +9,4 @@ if [ "$GID" -eq "4711" ]; then
 	exit 2
 fi
 
-if [ "$USERNAME" = "evil" ]; then
-	# don't like evil people
-	exit 1
-fi
-
 exit 0
